@@ -4,9 +4,36 @@ body {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
+    height: 60px;
+    padding: 10px 30px;
+}
+
+.button {
+    background-color: #0077c5;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button img {
+    width: 16px;
+    height: 20px;
+    display: inline-block;
+}
+
+.sign-in-button button {
+    width: 109.75px;
+    height: 34px;
+    padding: 0 20px;
 }
 
 .container {
@@ -22,14 +49,16 @@ h1 img{
     display: inline-block;
 }
 
-.brands {
-    vertical-align: center;
+.brands li a{
+    display: flex;
+    align-items: center;
 }
 
 .brands li img {
     width: 23px;
     height: 23px;
     margin: 0 4px 0 0;
+    display:inline-block
 }
 
 .brands li a {
@@ -39,11 +68,31 @@ h1 img{
 main {
     width: 380px;
     height: 641px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 282.8px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #CCC;
+    border-radius: 2px;
+    padding: 30px;
 }
 
 .brands li {
     display: inline-block;
     margin: 0 10px;
+}
+
+form {
+    text-align: left;
+}
+
+#account-create-button {
+    margin: 0 auto;
+}
+
+.terms {
+    background-color:  rgb(236, 238, 241);
 }
 
 .legal-links li {
@@ -69,4 +118,8 @@ main {
 
 a:hover, button:hover {
     cursor: pointer;
+}
+
+.link-color {
+    color: #0077c5;
 }
