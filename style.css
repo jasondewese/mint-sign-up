@@ -1,5 +1,7 @@
 body {
     background-color: rgb(236, 238, 241);
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 header {
@@ -11,6 +13,27 @@ header {
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1 img{
+    width: 118px;
+    height: 35px;
+    background: transparent;
+    display: inline-block;
+}
+
+.brands {
+    vertical-align: center;
+}
+
+.brands li img {
+    width: 23px;
+    height: 23px;
+    margin: 0 4px 0 0;
+}
+
+.brands li a {
+    text-decoration: none;
 }
 
 main {
@@ -32,4 +55,18 @@ main {
 .legal-links li a {
     text-decoration: none;
     /*color: black;*/
+}
+
+.privacy-button {
+    padding: 10px 12px;
+    position:fixed;
+    bottom: 0;
+    right: 5%;
+    background-color: #6B6C72;
+    color: white;
+    z-index: 100;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
 }
