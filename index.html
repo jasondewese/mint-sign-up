@@ -8,6 +8,78 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello!</h1>
+    <header>
+        <div class="header-text">
+            <p>Already have an account?</p>
+            <p><a target="_blank" href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS#">I forgot my User ID or Password</a></p>
+        </div>
+        <div class="sign-in-button">
+            <button class="button" type="button">Sign In</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Intuit</h1>
+        <ul class="brands">
+            <li>mint</li>
+            <li>quickbooks</li>
+            <li>turbotax</li>
+        </ul>
+        <main>
+            <h2>Create an Intuit Account</h2>
+            <h3>One account for everything Intuit, including Mint.</h3>
+            <p><a target="_blank" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a></p>
+            <form action="#" method="post">
+                <ul> 
+                    <li>  
+                        <label for="userEmail">Email address</label>
+                            <input required type="email" id="userEmail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="userPhone">Phone (recommended)</label>
+                            <input type="tel" id="userPhone" name="user_phone">
+                            <p>Standard call, messagin or data rates may apply.</p>
+                    </li>    
+                    <li>
+                        <label for="userPassword">Password</label>
+                        <input required id="userPassword" name="password">
+                    </li> 
+                    <li>
+                        <button class="button" type="submit">Create Account</button>
+                    </li>
+                </ul>   
+            </form>
+            <div class="disclaimer">
+                <p>
+                    By clicking Create Account, you agree to our<br>
+                    <a target="_blank" href="https://www.mint.com/terms">Terms</a>
+                    and have read and acknowledge our
+                    <a target="_blank" href="https://www.intuit.com/privacy/statement/">Global Privacy Statement</a>
+                </p>
+            </div>
+            <div class="terms">
+                <p>Invisible reCAPTHCA by Google
+                    <a terget="_blank" href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a>
+                    and
+                    <a target="_blank" href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>
+                </p>
+            </div>
+            <div class="legal">
+                <ul class="legal-links">
+                    <li><a target="_blank" href="https://www.intuit.com/legal/">Legal</a></li>
+                    <li><a target="_blank" href="https://www.intuit.com/privacy/statement/">Privacy</a></li>
+                    <li><a target="_blank" href="http://security.intuit.com/">Security</a></li>
+                </ul>
+                <p>
+                    &copy; Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+                    Terms and conditions, features, support, pricing, and service options subject to change without notice.
+                </p>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div> 
+            <button class="privacy-button" type="button">Privacy Settins</button>
+        </div>
+    </footer>
 </body>
 </html>
