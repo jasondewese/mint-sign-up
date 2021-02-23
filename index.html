@@ -54,22 +54,22 @@
             <form action="#" method="post">
                 <ul> 
                     <li>  
-                        <label for="userEmail">Email address</label>
+                        <label for="userEmail">Email address<br></label>
                             <input required type="email" id="userEmail" name="user_email">
                     </li>
                     <li>
-                        <label for="userPhone">Phone (recommended)</label>
+                        <label for="userPhone">Phone (recommended)<br></label>
                             <input type="tel" id="userPhone" name="user_phone">
-                            <p>Standard call, messagin or data rates may apply.</p>
+                            <p class="rate-disclaimer">Standard call, messaging or data rates may apply.</p>
                     </li>    
                     <li>
-                        <label for="userPassword">Password</label>
+                        <label for="userPassword">Password<br></label>
                         <input required id="userPassword" name="password">
                     </li> 
-                    <li>
+                    <li class="button-li">
                         <button id="account-create-button" class="button" type="submit">
                             <img src="images/lock.png" alt="Picture of small padlock">
-                            Create Account
+                            <p>Create Account</p>
                         </button>
                     </li>
                 </ul>   

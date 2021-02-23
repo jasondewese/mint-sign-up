@@ -2,17 +2,32 @@ body {
     background-color: rgb(236, 238, 241);
     font-size: 14px;
     line-height: 1.5;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
 }
 
 a {
     text-decoration: none;
 }
-
+h1 {
+    height: 75px;
+}
 header {
     display: flex;
     justify-content: flex-end;
     height: 60px;
     padding: 10px 30px;
+}
+
+.header-text {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #757575;
+}
+
+.brands {
+    height: 42px;
+   
 }
 
 .button {
@@ -76,6 +91,8 @@ main {
     border-color: #CCC;
     border-radius: 2px;
     padding: 30px;
+    font-size: 14px;
+   
 }
 
 .brands li {
@@ -83,9 +100,86 @@ main {
     margin: 0 10px;
 }
 
+h2 {
+    color: #393A3D;
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #393A3D;
+    
+}
+
 form {
     text-align: left;
+    
+    
 }
+
+form ul {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form ul li {
+    width: 320px;
+    height: 94.8px;
+    margin-bottom: 18px;
+    align-self: center;
+    margin-left: -16px;
+}
+.button-li {
+    height: 64.8px;
+}
+
+form ul li label {
+    color: #404040;
+    padding: 0 6px;
+   
+}
+
+form input {
+    border-color: rgb(193, 197, 200);
+    border-style: solid;
+    border-radius: 3px;
+    padding: 0 6px 0 8px;
+    width: 320px;
+    height: 34px;
+    margin-top: 10px;
+    
+}
+
+
+#account-create-button {
+    width: 318px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    font-size: 15.75px;
+    
+}
+
+#account-create-button img {
+    width: 16px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.rate-disclaimer {
+    color: #444444;
+    font-size: 12px;
+}
+
+.disclaimer p {
+    font-style: italic;
+    color: #757575;
+}
+
 
 #account-create-button {
     margin: 0 auto;
@@ -93,6 +187,27 @@ form {
 
 .terms {
     background-color:  rgb(236, 238, 241);
+    width: 380px;
+    height: 25px;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    padding: 16px;
+    padding-top: 16px;
+    padding-right: 44px;
+    margin-left: -30px;
+    margin-right: -30px;
+  
+}
+
+.terms p {
+    font-size: 10px;
+    color: #8d9096;
+    
+}
+.legal {
+    color: #505050;
+    font-size: 12px;
+    text-align: center;
 }
 
 .legal-links li {
@@ -103,7 +218,7 @@ form {
 
 .legal-links li a {
     text-decoration: none;
-    /*color: black;*/
+    color: #505050;
 }
 
 .privacy-button {
@@ -114,6 +229,7 @@ form {
     background-color: #6B6C72;
     color: white;
     z-index: 100;
+    border-radius: 3px;
 }
 
 a:hover, button:hover {
@@ -122,4 +238,12 @@ a:hover, button:hover {
 
 .link-color {
     color: #0077c5;
+}
+
+.brands li a{
+    color:  #757575;
+    font-size: 18px;
+}
+#account-create-button {
+    margin-left: 10%;
 }
